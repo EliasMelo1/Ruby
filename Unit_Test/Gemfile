@@ -1,0 +1,11 @@
+# executar o comando bundle init dentro de uma pasta => cria esse arquivo no qual devemos colocar nossas dependencias
+# executar o comando bundle install => Esse comando só ira dar certo em arquivos que possuam o file 'Gemfile', ele lê o arquivo e baixa todas a dependencias necessárias para executar o projeto com sucesso 
+# rspec --init => esse comando cria os files '.rspec' e spec/spec_helper.rb 
+# pasta spec é onde vou criar minhas automações (cenários de teste)
+# gem é equivalente ao yarn ou snpm
+
+
+source "https://rubygems.org"
+
+gem 'rspec'
+
